@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #785cf2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 13px;
+
+}
+
+.search-text{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    width: 250px;
+    transition: width ease 0.5s;
+}
+
+.search-text.active{
+    width: 0;
+}
+
+#search-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
